@@ -1,17 +1,21 @@
 body {
-  background: #6c567b;
+  background: #b64926;
 }
 
 .header {
   text-align: center;
   padding-top: 150px;
-  color: white;
+  padding-bottom: 150px;
+  color: #fff0a5;
 }
+
 .header h2 {
-  font-size: 30px;
+  font-size: 40px;
+  line-height: 1.5;
 }
 .header h1 {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: bold;
 }
 .faded-color {
   opacity: 0.9;
