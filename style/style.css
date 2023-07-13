@@ -20,3 +20,9 @@ body {
 .faded-color {
   opacity: 0.9;
 }
+.lets-connect-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
