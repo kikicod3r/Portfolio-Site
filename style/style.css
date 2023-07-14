@@ -1,9 +1,15 @@
+:root {
+  --primary-color: #d2ebcd;
+  --secondary-color: #fffcef;
+  --black-variation: #393939;
+}
+
 .header {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
-  color: #393939;
-  background: #d2ebcd;
+  color: var(--black-variation);
+  background: var(--primary-color);
   font-family: "Lato", sans-serif;
 }
 
@@ -21,11 +27,41 @@
 
 .btn-branding {
   border-radius: 4px;
-  background: #fffcef;
+  background: var(--secondary-color);
   font-size: 25px;
-  color: #393939;
+  color: var(--black-variation);
+  border: 1px solid var(--black-variation);
 }
 
 .btn-branding:hover {
   opacity: 0.8;
+}
+.text-center {
+  text-align: center;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+.btn-branding-projects {
+  border-radius: 4px;
+  color: var(--black-variation);
+  background: var(--primary-color);
+  font-size: 25px;
+  border: 1px solid var(--black-variation);
+}
+.btn-branding-projects:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .container {
+    text-align: center;
+  }
 }
