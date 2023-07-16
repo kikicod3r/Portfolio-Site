@@ -4,6 +4,9 @@
   --black-variation: #393939;
 }
 
+.page-content {
+  background: var(--secondary-color);
+}
 .header {
   text-align: center;
   padding-top: 150px;
