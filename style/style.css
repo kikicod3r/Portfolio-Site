@@ -59,12 +59,29 @@ h2 {
   font-size: 25px;
   border: 1px solid var(--black-variation);
 }
-.btn-branding-projects:hover {
+.btn:hover {
   opacity: 0.8;
+}
+.about-page {
+  background: var(--secondary-color);
+}
+.about-section {
+  padding: 160px 20px;
+
+  background: var(--primary-color);
+}
+.about-section h1 {
+  font-family: "Lato", sans-serif;
+}
+.about-image {
+  border-radius: 5px;
 }
 
 @media (max-width: 900px) {
   .container {
     text-align: center;
+  }
+  .col-md-6 {
+    margin-bottom: 30px;
   }
 }
