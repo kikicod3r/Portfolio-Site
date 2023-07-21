@@ -4,7 +4,7 @@
   --black-variation: #393939;
 }
 
-.page-content {
+.homepage-content {
   background: var(--secondary-color);
 }
 .header {
@@ -62,12 +62,12 @@ h2 {
 .btn:hover {
   opacity: 0.8;
 }
-.about-page {
-  background: var(--secondary-color);
+.primary-color {
+  background-color: var(--primary-color);
 }
-.about-section {
+.general-content {
   padding: 160px 20px;
-
+  line-height: 2;
   background: var(--primary-color);
 }
 .about-section h1 {
