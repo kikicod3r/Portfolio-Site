@@ -19,9 +19,6 @@ nav ul {
   padding: 0px;
   margin: 0px;
 }
-.header-list {
-  margin: 0px;
-}
 
 nav a {
   color: var(--black-variation);
