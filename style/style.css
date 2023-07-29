@@ -103,7 +103,24 @@ h2 {
 .about-image {
   border-radius: 5px;
 }
+footer .footer-email {
+  font-size: 25px;
+  color: var(--black-variation);
+}
 
+footer .footer-email:hover {
+  color: #ff7f5b;
+  text-decoration: none;
+}
+footer .contact-icons {
+  font-size: 25px;
+  padding: 12px;
+  color: var(--black-variation);
+}
+
+footer .contact-icons:hover {
+  color: #ff7f5b;
+}
 @media (max-width: 900px) {
   .container {
     text-align: center;
