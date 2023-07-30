@@ -5,24 +5,22 @@
 }
 
 nav {
-  padding: 25px 0px;
   background-color: var(--primary-color);
-  margin: 0;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 nav li {
   display: inline;
   list-style: none;
-  margin-left: 10px;
-}
-nav ul {
-  padding: 0px;
-  margin: 0px;
 }
 
 nav a {
   color: var(--black-variation);
   font-size: 20px;
+  margin-left: 10px;
 }
 
 nav a:hover,
