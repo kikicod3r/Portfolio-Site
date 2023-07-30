@@ -91,7 +91,7 @@ h2 {
   background-color: var(--primary-color);
 }
 .general-content {
-  padding: 160px 20px;
+  padding: 100px 20px 40px 20px;
   line-height: 2;
   background: var(--primary-color);
 }
