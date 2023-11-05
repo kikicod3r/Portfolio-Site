@@ -86,6 +86,7 @@ h2 {
 }
 .btn:hover {
   opacity: 0.8;
+  color: #ff7f5b;
 }
 .primary-color {
   background-color: var(--primary-color);
