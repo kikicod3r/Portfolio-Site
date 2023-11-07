@@ -29,9 +29,6 @@ nav li.active a {
   text-decoration: none;
 }
 
-.homepage-content {
-  background: var(--secondary-color);
-}
 .header {
   text-align: center;
   padding-top: 150px;
@@ -66,6 +63,9 @@ nav li.active a {
 }
 .text-center {
   text-align: center;
+}
+.project-previews {
+  background: var(--secondary-color);
 }
 
 p {
