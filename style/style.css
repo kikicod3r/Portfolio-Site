@@ -102,6 +102,14 @@ h2 {
 .about-image {
   border-radius: 5px;
 }
+
+.project-live-site {
+  color: var(--black-variation);
+}
+.project-live-site:hover {
+  color: #ff7f5b;
+  text-decoration: none;
+}
 footer .footer-email {
   font-size: 25px;
   color: var(--black-variation);
